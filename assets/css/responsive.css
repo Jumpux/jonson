@@ -1,0 +1,122 @@
+@media (min-width: 1200px) {
+    #first-screen,
+    #second-screen,
+    #third-screen {
+        width: 980px;
+        margin: auto;
+    }
+
+    .hashtag {
+        font-size: 85px;
+    }
+
+    .site-title.in-july {
+        font-size: 131px;
+    }
+
+    .site-text {
+        font-size: 46px;
+        line-height: 75px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0 15px;
+    }
+
+    #wrapper.site-blue,
+    #wrapper.site-green,
+    #wrapper.site-red {
+        background-size: 130% 100%;
+        background-position: center;
+    }
+
+    #first-screen, #second-screen, #third-screen {
+        padding-bottom: 90px;
+    }
+
+    .download-wallpaper {
+        width: 80px;
+        height: 80px;
+        bottom: -50px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    body {
+        background-position: center center;
+    }
+
+    .site-text {
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 25px;
+    }
+
+    .logo-center.lmp-logo {
+        padding-top: 50px;
+    }
+
+    .logo-center.lmp-logo img {
+        width: 35%;
+    }
+
+    .logo-center.butterfly-logo img {
+        width: 70%;
+    }
+
+    .text-small {
+        font-size: 11px;
+    }
+
+    .next-screen-btn {
+        margin: 20px 0;
+    }
+
+    .next-screen-btn img {
+        width: 30%;
+    }
+
+    #first-screen, #second-screen {
+        padding-bottom: 150px;
+    }
+
+    .download-wallpaper {
+        width: 50px;
+        height: 50px;
+        bottom: -20px;
+    }
+
+    .download-wallpaper img {
+        width: 30%;
+    }
+
+    .phone-block .phone-arrow-left, .phone-block .phone-arrow-right {
+        width: 40px;
+    }
+
+    #second-screen .site-text:last-child {
+        margin-top: 40px;
+    }
+
+    .phone-block {
+        width: 220px;
+        margin: auto;
+    }
+
+    .phone-block .phone-arrow-left.rotate {
+        left: -50px;
+    }
+
+    .phone-block .phone-arrow-right {
+        right: -50px;
+    }
+
+}
